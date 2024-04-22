@@ -5,16 +5,24 @@ const LegoWishList = () => {
     return (
         <>
             {wishlist.map(wish =>
-                <a href={wish.link} key={wish.id}>
-                    <div className='wishListItem'>
-                        <span>{wish.name}</span>
+                <div key={wish.id} className='wishListItem'>
+                    <div>
+                        <span className='wishListMetaData'>{wish.name}</span>
+                        <br/>
+                        <span className='wishListMetaData'>{wish.id}</span>
                         <br />
-                        <span>{wish.id}</span>
-                        <br />
-                        <span>{wish.pieceCount} Pieces</span>
-                        <img src={wish.imageRef} alt={wish.name}/>
+                        <span className='wishListMetaData'>{wish.pieceCount} Pieces</span>
+                        <br/>
+                        <a href={wish.link}>Shop</a>
                     </div>
-                </a>
+                    <div className='wishListImageColumn'>
+                        <img
+                            className='wishListImage'
+                            src={process.env.PUBLIC_URL + wish.imageRef}
+                            alt={wish.name}
+                        />
+                    </div>
+                </div>
             )}
         </>
     );
