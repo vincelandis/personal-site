@@ -6,16 +6,16 @@ const LegoWishList = () => {
         <>
             {wishlist.map(wish =>
                 <div key={wish.id} className='wishListItem'>
-                    <div>
+                    <div className='leftColumn'>
                         <span className='wishListMetaData'>{wish.name}</span>
                         <br/>
-                        <span className='wishListMetaData'>{wish.id}</span>
+                        <code className='wishListMetaData'>Set id: {wish.id}</code>
                         <br />
-                        <span className='wishListMetaData'>{wish.pieceCount} Pieces</span>
+                        <code className='wishListMetaData'>{wish.pieceCount} Pieces</code>
                         <br/>
-                        <a href={wish.link}>Shop</a>
+                        <a href={wish.link}>Shop <i class="fa-solid fa-arrow-up-right-from-square"/></a>
                     </div>
-                    <div className='wishListImageColumn'>
+                    <div className='rightColumn' onClick={() => window.open(wish.link, '_blank')}>
                         <img
                             className='wishListImage'
                             src={process.env.PUBLIC_URL + wish.imageRef}

@@ -8,15 +8,23 @@
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
 }
 
-.wishListImage {
-    max-height: 300px;
-    max-width: 100%;
+.leftColumn {
+    width: 300px;
+}
+
+.rightColumn {
+    width: 50%;
+    cursor: pointer;
 }
 
 .wishListMetaData {
     padding: 100px 0px;
+}
+
+.wishListImage {
+    max-height: 300px;
 }
