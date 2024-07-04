@@ -18,7 +18,7 @@ const LegoWishList = () => {
                     <div className='rightColumn' onClick={() => window.open(wish.link, '_blank')}>
                         <img
                             className='wishListImage'
-                            src={process.env.PUBLIC_URL + wish.imageRef}
+                            src={process.env.PUBLIC_URL + `/images/wishlist-lego/${wish.id}.png`}
                             alt={wish.name}
                         />
                     </div>
