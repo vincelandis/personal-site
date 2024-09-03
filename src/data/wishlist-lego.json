@@ -34,5 +34,17 @@
         "name": "Captain Rex Helmet",
         "pieceCount": 854,
         "link": "https://www.lego.com/en-us/product/captain-rex-helmet-75349"
+    },
+    {
+        "id": 75376,
+        "name": "Tantive IV",
+        "pieceCount": 654,
+        "link": "https://www.lego.com/en-us/product/tantive-iv-75376"
+    },
+    {
+        "id": 75350,
+        "name": "Clone Commander Cody Helmet",
+        "pieceCount": 766,
+        "link": "https://www.lego.com/en-us/product/clone-commander-cody-helmet-75350"
     }
 ]

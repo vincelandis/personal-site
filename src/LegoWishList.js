@@ -4,7 +4,7 @@ import wishlist from './data/wishlist-lego.json';
 const LegoWishList = () => {
     return (
         <>
-            {wishlist.map(wish =>
+            {wishlist.sort((a,b) => a.id > b.id ? 1 : -1).map(wish =>
                 <div key={wish.id} className='wishListItem'>
                     <div className='leftColumn'>
                         <span className='wishListMetaData'>{wish.name}</span>
