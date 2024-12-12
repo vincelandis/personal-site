@@ -1,0 +1,30 @@
+.wishListItem {
+    max-width: 90%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    max-height: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.leftColumn {
+    width: 300px;
+}
+
+.rightColumn {
+    width: 50%;
+    cursor: pointer;
+}
+
+.wishListMetaData {
+    padding: 100px 0px;
+}
+
+.wishListImage {
+    max-height: 300px;
+}
