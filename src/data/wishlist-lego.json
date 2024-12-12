@@ -69,5 +69,12 @@
         "pieceCount": 487,
         "link": "https://www.lego.com/en-us/product/spider-man-s-mask-76285",
         "priority": 75
+    },
+    {
+        "id": 75277,
+        "name": "Boba Fett Helmet",
+        "pieceCount": 625,
+        "link": "https://www.bricklink.com/v2/catalog/catalogitem.page?S=75277-1#T=S&O={%22iconly%22:0}",
+        "priority": 70
     }
 ]
