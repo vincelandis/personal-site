@@ -62,5 +62,12 @@
         "pieceCount": 558,
         "link": "https://www.lego.com/en-us/product/desert-skiff-sarlacc-pit-75396",
         "priority": 40
+    },
+    {
+        "id": 76285,
+        "name": "Spider-Man's Mask",
+        "pieceCount": 487,
+        "link": "https://www.lego.com/en-us/product/spider-man-s-mask-76285",
+        "priority": 75
     }
 ]
