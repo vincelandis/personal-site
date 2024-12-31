@@ -1,12 +1,5 @@
 [
     {
-        "id": 75352,
-        "name": "Emperor's Throne Room Diorama",
-        "pieceCount": 807,
-        "link": "https://www.lego.com/en-us/product/emperor-s-throne-room-diorama-75352",
-        "priority": 10
-    },
-    {
         "id": 76223,
         "name": "Nano Gauntlet",
         "pieceCount": 675,
@@ -41,13 +34,6 @@
         "pieceCount": 854,
         "link": "https://www.lego.com/en-us/product/captain-rex-helmet-75349",
         "priority": 70
-    },
-    {
-        "id": 75376,
-        "name": "Tantive IV",
-        "pieceCount": 654,
-        "link": "https://www.lego.com/en-us/product/tantive-iv-75376",
-        "priority": 50
     },
     {
         "id": 75350,
