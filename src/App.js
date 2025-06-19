@@ -6,8 +6,8 @@ const App = () => {
   return (
     <div className="App">
       <h1>Vince Wish List</h1>
-      <LegoWishList />
       <StandardWishList/>
+      <LegoWishList />
     </div>
   );
 }
