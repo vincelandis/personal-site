@@ -1,5 +1,6 @@
 [
     {
+        "hidden": true,
         "priority": 300,
         "id": "texas-roadhouse",
         "imageId": "texas-roadhouse",
@@ -14,20 +15,6 @@
         "link": "https://www.amazon.com/The-Home-Depot-3_The-Depot_Traditional/dp/B0DJQRWRGV?crid=2MIPEBEVOR5A&dib=eyJ2IjoiMSJ9.L_8ml4XERtIgSxUtwwnQFs3fvkYKMnz2P0_fpfHfgR3jEpHRd-IYQlPhpd8TQhCX9EH-Vw6nIQu_EoTiFgL5FV4GRturmUQwfUNQY7C26I0uTKums7LEYfV-IONcSmgXUtYGrNYqpHdlFr1caVZoD534w0AomfMZjLMmGNG7plOzRzWPDvggK25iDvp19lZV6DUFWgjxEuoNbV97O8XDn7326ngx4JkhgD0Y9iCFatVljNGBTCbfUuJnCLcEOkeN4Dqp-ejf1rFqBo-HuL0NVeOFS9O6ZZA8lXNIVQqS8_U.8p96vY8yZikjFP3ga7Z2tsW5HDQy0cCszj3SqRzyq7s&dib_tag=se&keywords=home%2Bdepot%2Bgift%2Bcard&qid=1733975564&sprefix=home%2Bdepot%2Bgift%2Bcard%2Caps%2C89&sr=8-4&th=1"
     },
     {
-        "priority": 200,
-        "id": "rhino-bungee",
-        "imageId": "rhino-bungee",
-        "link": "https://www.amazon.com/USA-Assortment-Drawstring-Organizer-Bungees/dp/B01NC2PAGA?crid=1W7LJ1SP6PSAB&dib=eyJ2IjoiMSJ9.Is1WSVJ81qpgCIuy_2n5axxwVIMFK7VLxOquBmXn-YL4oBPzy0nKKp9HSWKE2z3R9ZMNnFdAtrxk-RMnaYQKUFdhe6e1IdbRYhECMj2SlRqSWR01j4w5ZCcAW-UVIPd9YrIdjFEHA8dnzwKuU13Y80mCmz31uwvlCg6dKJ6SB9-o49O7SS1hoqC8MM1OrO8AIDSuIOWQxKPmtL7b24ahaD1u0-WxC8Tv0GEQg2gmW5HMk8GSmbBXWEvRaEbThIA-VOxSkw_-Bdf1PaqKZFvS2h7wvCfMTMNbsU8sf3EQWyM.3PHQW5ZjSWTxIq65gyzg2APlBPecKu7C_1VYsrugnPo&dib_tag=se&keywords=bungee%2Bcords&qid=1733971268&sprefix=bungee%2Bcords%2Caps%2C112&sr=8-9&th=1",
-        "name": "RHINO USA Bungee Cords"
-    },
-    {
-        "priority": 400,
-        "id": "tonneau-ram",
-        "imageId": "tonneau-ram",
-        "link": "https://www.amazon.com/Tyger-Auto-Compatible-2003-2021-TG-BC1D9056/dp/B08PCCP652?crid=267TZK4BBMADN&dib=eyJ2IjoiMSJ9.f657QA6_m-tb53qeAOm5ZaE31UT4qtMJ_lg6CoqgSt1yODesgxlbtFK9lE2hp8q6JfhscsOrIpmzbJp4zdPbMIajn39y0TgXNKcKN6qf1pbla9F8JCFGy_d4sJ6VpGGBTQ8IGsrhGtDXVy3vf2r_QGQkrRCB7ToKG9IDp-8TDoJZ-j0YQ5pAs_cNOp8o_vheEeD97lHxowT7eKbTPs0TzP7FIdxDWWbZqbr069a6ISMGv6dcwf1E4PB4Rve53ThyMnUKunBzCrWDXTNAstJSpyId9kbdLO3_qvHEQo6TWbo.-IEvmoRVFHl1lCJTVp2_gAMqajYtAtCBdE8pdkBvBKM&dib_tag=se&keywords=tonneau%2Bcover%2Bram%2B1500%2B2008&qid=1733971974&sprefix=tonneau%2Bcover%2Bram%2B1500%2B2008%2Caps%2C126&sr=8-1&th=1",
-        "name": "Tonneau Cover 6.4\" bed 2008 Ram 1500"
-    },
-    {
         "id": "fireproof-box",
         "imageId": "fireproof-box",
         "name": "Fireproof Document Box (14.3 x 10.6)",
@@ -40,17 +27,5 @@
         "imageId": "guillotine",
         "name": "Guillotine Paper Cutter 15inch with Blade Lock",
         "link": "https://www.amazon.com/Amazon-Basics-Guillotine-Heavy-Duty-10-Sheet/dp/B07LFHSRNB?crid=1TGII5KWPP2N6&dib=eyJ2IjoiMSJ9.sZNHspL5dXJcSxEe-XzMr7tYC2jWdGzY8qvo2cg84LQWu6ARbg-X_1MaCh24x8bYMPXolIfUwUbM_-pcOKClSHCnkqcfjKKRI-qemgmEJoY3gFoXG4XvMiIMUMaW-GATLM4ziAvBNAsPI4KNBDY3_eN6g6x4_NBhj_I_-Hx3MvC7FcUWs85SRKVTmHj7CSJAWWBP2NJ75JE67dxgfOJvemzLsRsLeLPweS9ES9y1keylLr5LHbDvH4AGxtmnwYT5i_5oSrxk-ZzeTyykfEyZ3Gs8E1cBgUhTwYxL1cBi-IFZIVWIm-ogjsCJJH9PKEqWQlXl2UEtP0w-9FNQ0F-0yZ5i3maHb8vURPuCV5_S9jUJNMKBaS0WD91Vg5m7ybhg9mH7iAIIzuILCI39ieCBpndEYmerBA9F0zJ6MfTesqrpqe-YwZ3gE3jVzRraw9Oc.otR0FhjhL2e_8u1MeNeWBnubbd87T3IGagFsYGudDNs&dib_tag=se&keywords=paper%2Bcutter%2Bguillotine&qid=1737075153&sprefix=paper%2Bcutter%2Bguillotine%2Caps%2C102&sr=8-6&th=1"
-    },
-    {
-        "priority": 500,
-        "id": "lego-fund-donation",
-        "imageId": "cash",
-        "name": "Lego Fund $$"
-    },
-    {
-        "priority": 500,
-        "id": "music-fund-donation",
-        "imageId": "cash",
-        "name": "Music Fund $$"
     }
 ]

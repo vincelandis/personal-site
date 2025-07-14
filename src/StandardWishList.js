@@ -10,8 +10,6 @@ const StandardWishList = () => {
                 .map(wish =>
                     <div key={wish.id} className='wishListItem'>
                         <div className='leftColumn'>
-                            <br />
-                            <br />
                             <span className='wishListMetaData'>{wish.name}</span>
                             <br />
                             {wish.link
@@ -25,9 +23,8 @@ const StandardWishList = () => {
                                 </>
                                 : null
                             }
-                        </div>
-                        <div className='rightColumn' onClick={wish.link ? () => window.open(wish.link, '_blank') : null}>
                             <img
+                                onClick={wish.link ? () => window.open(wish.link, '_blank') : null}
                                 className='wishListImage'
                                 src={process.env.PUBLIC_URL + `/images/wishlist-standard/${wish.imageId}.png`}
                                 alt={wish.name}
