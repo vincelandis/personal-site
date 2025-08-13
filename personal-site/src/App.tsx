@@ -33,7 +33,9 @@ function App() {
           LEGO
         </button>
       </div>
-      <WishList dataSource={mode === 'lego' ? legoWishes : standardWishes}/>
+      <div>
+        <WishList dataSource={mode === 'lego' ? legoWishes : standardWishes}/>
+      </div>
     </>
   )
 }

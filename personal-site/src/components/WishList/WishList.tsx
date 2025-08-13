@@ -15,10 +15,12 @@ interface WishListItemProps {
   dataSource: Wish[];
 }
 
+const MOBILE_SCREEN_SIZE_CUTOFF = 950;
+
 function WishList({ dataSource }: WishListItemProps) {
 
   function getScreenSize(width: number) {
-    return width < 1200 ? 'mobile' : 'desktop';
+    return width < MOBILE_SCREEN_SIZE_CUTOFF ? 'mobile' : 'desktop';
   }
 
   const [screenSize, setScreenSize] = useState(getScreenSize(window.innerWidth));
@@ -40,10 +42,16 @@ function WishList({ dataSource }: WishListItemProps) {
   return (
     <>
       {dataSource.map(o =>
-        <>
-          {o.name}
-        </>)}
-      <br />
+        <div className={`wish-container-${isMobile ? 'mobile' : 'desktop'}`}>
+          <div className={`wish-text`}>
+            content: {o.name}
+          </div>
+          <div className={`wish-image`}>
+            image: {o.id}
+          </div>
+        </div>
+      )}
+
       {isMobile && <>mobile size detected</>}
       {isDesktop && <>desktop size detected</>}
     </>
