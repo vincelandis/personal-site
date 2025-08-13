@@ -19,7 +19,7 @@ function App() {
         </a> */}
       {/* <div>
       </div> */}
-      <h1>Vince Wish List</h1>
+      <h1>Vince Wishlist</h1>
       <div className='card'>
         <button className={`button-left ${mode === 'standard' ? 'selected' : ''}`}
           onClick={() => setMode('standard')}
