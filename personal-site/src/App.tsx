@@ -2,8 +2,9 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import StandardWishList from './components/StandardWishList/StandardWishList'
-import LegoWishList from './components/LegoWishList/LegoWishList'
+import WishList from './components/WishList/WishList'
+import legoWishes from './data/wishlist-lego.json'
+import standardWishes from './data/wishlist-standard.json'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -32,8 +33,7 @@ function App() {
           LEGO
         </button>
       </div>
-      {mode === 'standard' && <StandardWishList/>}
-      {mode === 'lego' && <LegoWishList/>}
+      <WishList dataSource={mode === 'lego' ? legoWishes : standardWishes}/>
     </>
   )
 }
