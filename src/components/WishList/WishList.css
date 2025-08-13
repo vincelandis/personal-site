@@ -1,0 +1,23 @@
+.wish-container-mobile {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.wish-container-desktop {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.wish-text {
+    margin: 3em;
+    background-color: orange;
+}
+
+.wish-image {
+    margin: 3em;
+    background-color: yellow;
+}
