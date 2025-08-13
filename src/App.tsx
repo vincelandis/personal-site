@@ -2,12 +2,11 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import WishList from './components/WishList/WishList'
+import WishList from './WishList/WishList'
 import legoWishes from './data/wishlist-lego.json'
 import standardWishes from './data/wishlist-standard.json'
 
 function App() {
-  // const [count, setCount] = useState(0)
   const [mode, setMode] = useState('standard')
 
   return (

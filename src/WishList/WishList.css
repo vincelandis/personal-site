@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+    .wish-container-mobile, .wish-container-desktop {
+        background-color: #1a1a1a;
+    }
+}
+
+
+.wish-container-mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.wish-container-desktop {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+.wish-text {
+    margin: 3em;
+}
+
+.wish-image {
+    margin: 3em;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}

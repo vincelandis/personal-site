@@ -9,6 +9,7 @@ export interface Wish {
   link?: string;
   priority?: number;
   backupLink?: string;
+  imageAddress?: string;
 }
 
 interface WishListItemProps {
@@ -37,7 +38,7 @@ function WishList({ dataSource }: WishListItemProps) {
   }, []);
 
   const isMobile = screenSize === 'mobile';
-  const isDesktop = screenSize === 'desktop';
+  // const isDesktop = screenSize === 'desktop';
 
   return (
     <>
@@ -47,13 +48,10 @@ function WishList({ dataSource }: WishListItemProps) {
             content: {o.name}
           </div>
           <div className={`wish-image`}>
-            image: {o.id}
+            <img src={o.imageAddress} />
           </div>
         </div>
       )}
-
-      {isMobile && <>mobile size detected</>}
-      {isDesktop && <>desktop size detected</>}
     </>
   )
 }
