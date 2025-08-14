@@ -4,6 +4,11 @@
     }
 }
 
+@media (prefers-color-scheme: light) {
+    .wish-container-mobile, .wish-container-desktop {
+        background-color: #f9f9f9;
+    }
+}
 
 .wish-container-mobile {
     display: flex;
@@ -21,13 +26,15 @@
 
 .wish-text {
     margin: 3em;
+    width: 50%;
 }
 
 .wish-image {
     margin: 3em;
+    height: 300px;
 }
 
-img {
-    width: 25%;
-    height: auto;
+.image-v {
+    width: auto;
+    height: 100%;
 }

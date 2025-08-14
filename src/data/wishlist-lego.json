@@ -48,7 +48,8 @@
         "name": "Mos Espa Podrace Diorama",
         "pieceCount": 718,
         "link": "https://www.lego.com/en-us/product/mos-espa-podrace-diorama-75380",
-        "priority": 80
+        "priority": 80,
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/bltf844b7f02ed08d82/75380.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
         "id": "7962",

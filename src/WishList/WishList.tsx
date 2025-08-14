@@ -48,7 +48,7 @@ function WishList({ dataSource }: WishListItemProps) {
             content: {o.name}
           </div>
           <div className={`wish-image`}>
-            <img src={o.imageAddress} />
+            <img className={`image-v`} src={o.imageAddress} />
           </div>
         </div>
       )}
