@@ -1,39 +1,44 @@
 [
     {
-        "id": "75396",
-        "name": "Desert Skiff & Sarlacc Pit",
-        "pieceCount": 558,
-        "link": "https://www.lego.com/en-us/product/desert-skiff-sarlacc-pit-75396",
-        "priority": 40
-    },
-    {
         "id": "75397",
         "name": "Jabba's Sail Barge",
         "pieceCount": 3943,
         "link": "https://www.lego.com/en-us/product/jabba-s-sail-barge-75397",
         "backupLink": "https://www.bricklink.com/v2/catalog/catalogitem.page?S=75397-1&name=Jabba%27s%20Sail%20Barge%20-%20UCS&category=%5BStar%20Wars%5D%5BUltimate%20Collector%20Series%5D%5BStar%20Wars%20Episode%204/5/6%5D#T=S&O={%22iconly%22:0}",
-        "priority": 45
+        "priority": 45,
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/bltad48b7c771f86707/75397_Prod.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
         "id": "75304",
         "name": "Darth Vader Helmet",
         "pieceCount": 834,
         "link": "https://www.lego.com/en-us/product/darth-vader-helmet-75304",
-        "priority": 70
+        "priority": 70,
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/blt98788132422b6a0f/75304_WEB_PRI_NOBG.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
         "id": "75350",
         "name": "Clone Commander Cody Helmet",
         "pieceCount": 766,
         "link": "https://www.lego.com/en-us/product/clone-commander-cody-helmet-75350",
-        "priority": 70
+        "priority": 70,
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/blt047686711ed3cb43/75350.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
         "id": "75277",
         "name": "Boba Fett Helmet",
         "pieceCount": 625,
         "link": "https://www.bricklink.com/v2/catalog/catalogitem.page?S=75277-1#T=S&O={%22iconly%22:0}",
-        "priority": 70
+        "priority": 70,
+        "imageAddress": "https://img.bricklink.com/ItemImage/IN/0/75277-1.png"
+    },
+    {
+        "id": "75396",
+        "name": "Desert Skiff & Sarlacc Pit",
+        "pieceCount": 558,
+        "link": "https://www.lego.com/en-us/product/desert-skiff-sarlacc-pit-75396",
+        "priority": 40,
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/blte9ebe707228b512e/75396_WEB_PRI_NOBG.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
         "id": "76285",
@@ -56,6 +61,7 @@
         "name": "Anakin's & Sebulba's Podracers",
         "pieceCount": 810,
         "link": "https://www.ebay.com/sch/i.html?&_nkw=lego+7962",
-        "priority": 90
+        "priority": 90,
+        "imageAddress": "https://img.bricklink.com/ItemImage/ON/0/7962-1.png"
     }
 ]

@@ -15,6 +15,7 @@
     flex-direction: column;
     margin: 10px;
     border-radius: 4px;
+    align-items: center;
 }
 
 .wish-container-desktop {
@@ -25,11 +26,15 @@
 }
 
 .wish-text {
-    margin: 3em;
+    margin: 3em 0;
+    padding: 0 3em;
     width: 50%;
+    /* background-color: aqua; */
+    text-align: center;
 }
 
 .wish-image {
+    /* background-color: blue; */
     margin: 3em;
     height: 300px;
 }

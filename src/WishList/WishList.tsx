@@ -42,16 +42,19 @@ function WishList({ dataSource }: WishListItemProps) {
 
   return (
     <>
-      {dataSource.map(o =>
-        <div className={`wish-container-${isMobile ? 'mobile' : 'desktop'}`}>
-          <div className={`wish-text`}>
-            content: {o.name}
+      {dataSource
+        .filter(d => !d.hidden === true)
+        .sort((a: Wish, b: Wish) => a.priority && b.priority && a.priority > b.priority ? 1 : -1)
+        .map(o =>
+          <div className={`wish-container-${isMobile ? 'mobile' : 'desktop'}`}>
+            <div className={`wish-text`}>
+              <h2>{o.name}</h2>
+            </div>
+            <div className={`wish-image`}>
+              <img className={`image-v`} src={o.imageAddress} />
+            </div>
           </div>
-          <div className={`wish-image`}>
-            <img className={`image-v`} src={o.imageAddress} />
-          </div>
-        </div>
-      )}
+        )}
     </>
   )
 }
