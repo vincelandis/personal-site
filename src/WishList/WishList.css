@@ -16,6 +16,7 @@
     margin: 10px;
     border-radius: 4px;
     align-items: center;
+    cursor: pointer;
 }
 
 .wish-container-desktop {
@@ -23,6 +24,7 @@
     flex-direction: row;
     margin: 15px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .wish-text {
