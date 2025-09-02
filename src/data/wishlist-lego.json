@@ -63,5 +63,19 @@
         "link": "https://www.ebay.com/sch/i.html?&_nkw=lego+7962",
         "priority": 90,
         "imageAddress": "https://img.bricklink.com/ItemImage/ON/0/7962-1.png"
+    },
+    {
+        "id": "10348",
+        "name": "Japanese Red Maple Bonsai Tree",
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/bltd4a3e6e4bf1b680c/10348_Prod_en-gb.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+        "link": "https://www.lego.com/en-us/product/japanese-red-maple-bonsai-tree-10348",
+        "priority": 200
+    },
+    {
+        "id": "10369",
+        "name": "Plum Blossom",
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/bltbd23c81083af1abb/10369_Prod_1.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+        "link": "https://www.lego.com/en-us/product/plum-blossom-10369",
+        "priority": 210
     }
 ]
