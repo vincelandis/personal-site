@@ -46,9 +46,9 @@ function WishList({ dataSource }: WishListItemProps) {
         .filter(d => !d.hidden === true)
         .sort((a: Wish, b: Wish) => a.priority && b.priority && a.priority > b.priority ? 1 : -1)
         .map(o =>
-          <a
+          <div
             className={`wish-container-${isMobile ? 'mobile' : 'desktop'}`}
-            href={o.link}
+            onClick={() => window.open(o.link, '_blank')}
           >
             <div className={`wish-text`}>
               <h2>{o.name}</h2>
@@ -56,7 +56,7 @@ function WishList({ dataSource }: WishListItemProps) {
             <div className={`wish-image`}>
               <img className={`image-v`} src={o.imageAddress} />
             </div>
-          </a>
+          </div>
         )}
     </>
   )

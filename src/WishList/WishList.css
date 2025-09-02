@@ -27,21 +27,32 @@
     cursor: pointer;
 }
 
+.wish-container-mobile, .wish-container-desktop {
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 .wish-text {
-    margin: 3em 0;
-    padding: 0 3em;
+    margin: 20px 0;
+    padding: 0 20px;
     width: 50%;
-    /* background-color: aqua; */
     text-align: center;
 }
 
 .wish-image {
-    /* background-color: blue; */
-    margin: 3em;
+    margin: 20px;
     height: 300px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-v {
     width: auto;
     height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
