@@ -29,14 +29,6 @@
         "imageAddress": "https://m.media-amazon.com/images/I/71xm6xpd0XL._AC_SL1500_.jpg"
     },
     {
-        "hidden": true,
-        "priority": 100,
-        "id": "saw-chain",
-        "name": "Saw Chain - 3/8\", .050, 70-link",
-        "link": "https://www.amazon.com/20-Inch-McCulloch-Replacement-Greenworks/dp/B0DFPXDZZ1?pd_rd_w=JqzUh&content-id=amzn1.sym.2b6a5c03-701a-44ff-be6c-34a44cc123d4&pf_rd_p=2b6a5c03-701a-44ff-be6c-34a44cc123d4&pf_rd_r=H6TTF8R02E25Q6MGKDT0&pd_rd_wg=Y1FyV&pd_rd_r=fcd84478-4a60-4487-a5e1-79ac28958313&pd_rd_i=B0DFPXDZZ1&psc=1&ref_=pd_basp_d_rpt_ba_s_1_t",
-        "imageAddress": "https://m.media-amazon.com/images/I/71-UiRJElxL._AC_SL1500_.jpg"
-    },
-    {
         "priority": 400,
         "id": "music-stand",
         "name": "Manhasset Model 48 Symphony Music Stand",
@@ -49,5 +41,12 @@
         "name": "Lemxadd Tripod Microphone Stand",
         "link": "https://www.amazon.com/Lemxadd-Tripod-Microphone-Carrying-Adapter/dp/B0DB5NVC2V",
         "imageAddress": "https://m.media-amazon.com/images/I/61Udr03nGlL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 400,
+        "id": "mic-stand",
+        "name": "EPAuto Heavy Duty Universal Lug Wrench - 4-Way",
+        "link": "https://www.amazon.com/EPAuto-Heavy-Universal-Wrench-4-Way/dp/B0B6GW9R62",
+        "imageAddress": "https://m.media-amazon.com/images/I/612jshmBsdL._AC_SL1500_.jpg"
     }
 ]
