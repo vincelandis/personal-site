@@ -38,7 +38,6 @@ function WishList({ dataSource }: WishListItemProps) {
   }, []);
 
   const isMobile = screenSize === 'mobile';
-  // const isDesktop = screenSize === 'desktop';
 
   return (
     <>

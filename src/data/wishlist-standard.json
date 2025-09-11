@@ -3,7 +3,6 @@
         "hidden": true,
         "priority": 300,
         "id": "texas-roadhouse",
-        "imageId": "texas-roadhouse",
         "name": "Texas Roadhouse Gift Card",
         "link": "https://www.amazon.com/Texas-Roadhouse-Gift-Card-25/dp/B00CXZPG0O?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=ATVPDKIKX0DER&th=1",
         "imageAddress": "https://m.media-amazon.com/images/I/81M1eGDzwDL._SL1500_.jpg"
@@ -11,7 +10,6 @@
     {
         "priority": 300,
         "id": "home-depot",
-        "imageId": "home-depot",
         "name": "Home Depot Gift Card",
         "link": "https://www.amazon.com/The-Home-Depot-3_The-Depot_Traditional/dp/B0DJQRWRGV?crid=2MIPEBEVOR5A&dib=eyJ2IjoiMSJ9.L_8ml4XERtIgSxUtwwnQFs3fvkYKMnz2P0_fpfHfgR3jEpHRd-IYQlPhpd8TQhCX9EH-Vw6nIQu_EoTiFgL5FV4GRturmUQwfUNQY7C26I0uTKums7LEYfV-IONcSmgXUtYGrNYqpHdlFr1caVZoD534w0AomfMZjLMmGNG7plOzRzWPDvggK25iDvp19lZV6DUFWgjxEuoNbV97O8XDn7326ngx4JkhgD0Y9iCFatVljNGBTCbfUuJnCLcEOkeN4Dqp-ejf1rFqBo-HuL0NVeOFS9O6ZZA8lXNIVQqS8_U.8p96vY8yZikjFP3ga7Z2tsW5HDQy0cCszj3SqRzyq7s&dib_tag=se&keywords=home%2Bdepot%2Bgift%2Bcard&qid=1733975564&sprefix=home%2Bdepot%2Bgift%2Bcard%2Caps%2C89&sr=8-4&th=1",
         "imageAddress": "https://m.media-amazon.com/images/I/41D679Pu-oL.jpg"
@@ -19,7 +17,6 @@
     {
         "priority": 400,
         "id": "guillotine",
-        "imageId": "guillotine",
         "name": "Guillotine Paper Cutter 15inch with Blade Lock",
         "link": "https://www.amazon.com/Amazon-Basics-Guillotine-Heavy-Duty-10-Sheet/dp/B07LFHSRNB?crid=1TGII5KWPP2N6&dib=eyJ2IjoiMSJ9.sZNHspL5dXJcSxEe-XzMr7tYC2jWdGzY8qvo2cg84LQWu6ARbg-X_1MaCh24x8bYMPXolIfUwUbM_-pcOKClSHCnkqcfjKKRI-qemgmEJoY3gFoXG4XvMiIMUMaW-GATLM4ziAvBNAsPI4KNBDY3_eN6g6x4_NBhj_I_-Hx3MvC7FcUWs85SRKVTmHj7CSJAWWBP2NJ75JE67dxgfOJvemzLsRsLeLPweS9ES9y1keylLr5LHbDvH4AGxtmnwYT5i_5oSrxk-ZzeTyykfEyZ3Gs8E1cBgUhTwYxL1cBi-IFZIVWIm-ogjsCJJH9PKEqWQlXl2UEtP0w-9FNQ0F-0yZ5i3maHb8vURPuCV5_S9jUJNMKBaS0WD91Vg5m7ybhg9mH7iAIIzuILCI39ieCBpndEYmerBA9F0zJ6MfTesqrpqe-YwZ3gE3jVzRraw9Oc.otR0FhjhL2e_8u1MeNeWBnubbd87T3IGagFsYGudDNs&dib_tag=se&keywords=paper%2Bcutter%2Bguillotine&qid=1737075153&sprefix=paper%2Bcutter%2Bguillotine%2Caps%2C102&sr=8-6&th=1",
         "imageAddress": "https://m.media-amazon.com/images/I/612Kme7rCpL._AC_SL1500_.jpg"
@@ -27,7 +24,6 @@
     {
         "priority": 100,
         "id": "wedges",
-        "imageId": "wedges",
         "name": "Tree Felling Wedges",
         "link": "https://www.amazon.com/UNCO-Tree-Felling-Wedges/dp/B0B538H3V9/ref=sr_1_3?crid=234GYGIX9WAHL&dib=eyJ2IjoiMSJ9.M4hpPauOefTE8h1aMug6Iad_RtIEWuBmTja8CGiXj3IXtTEve6ZeHPqz16tLbk13ik1ORh5WfcHZwqFIPF-5G6YEo7PYGKHZ0EGgG5Q3wno13cHQvDl_0uMmBn7BZo9mk93Bki63iGkCKaEooO3rJ9oXnvp0JwaCRalyl6mfxz_0bC_yiuim8hAm7cqsGFTpTUSAemQY5LYdEbX3KTtH7MyH6sCMBPJxceYQoNz8QGE.Wa9edVa1eVrFQ5HkFGyx3Ymwm6CBtqVvNhKL_C9_bWA&dib_tag=se&keywords=tree+felling+wedges&qid=1752975344&sprefix=tree+felling+wedges%2Caps%2C102&sr=8-3",
         "imageAddress": "https://m.media-amazon.com/images/I/71xm6xpd0XL._AC_SL1500_.jpg"
@@ -36,9 +32,15 @@
         "hidden": true,
         "priority": 100,
         "id": "saw-chain",
-        "imageId": "saw-chain",
         "name": "Saw Chain - 3/8\", .050, 70-link",
         "link": "https://www.amazon.com/20-Inch-McCulloch-Replacement-Greenworks/dp/B0DFPXDZZ1?pd_rd_w=JqzUh&content-id=amzn1.sym.2b6a5c03-701a-44ff-be6c-34a44cc123d4&pf_rd_p=2b6a5c03-701a-44ff-be6c-34a44cc123d4&pf_rd_r=H6TTF8R02E25Q6MGKDT0&pd_rd_wg=Y1FyV&pd_rd_r=fcd84478-4a60-4487-a5e1-79ac28958313&pd_rd_i=B0DFPXDZZ1&psc=1&ref_=pd_basp_d_rpt_ba_s_1_t",
         "imageAddress": "https://m.media-amazon.com/images/I/71-UiRJElxL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 400,
+        "id": "music-stand",
+        "name": "Manhasset Model 48 Symphony Music Stand",
+        "link": "https://www.amazon.com/Manhasset-Model-Sheet-Music-Stand/dp/B0002FOBJY",
+        "imageAddress": "https://m.media-amazon.com/images/I/61yH4nFv67L._AC_SL1500_.jpg"
     }
 ]
