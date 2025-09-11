@@ -42,5 +42,12 @@
         "name": "Manhasset Model 48 Symphony Music Stand",
         "link": "https://www.amazon.com/Manhasset-Model-Sheet-Music-Stand/dp/B0002FOBJY",
         "imageAddress": "https://m.media-amazon.com/images/I/61yH4nFv67L._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 400,
+        "id": "mic-stand",
+        "name": "Lemxadd Tripod Microphone Stand",
+        "link": "https://www.amazon.com/Lemxadd-Tripod-Microphone-Carrying-Adapter/dp/B0DB5NVC2V",
+        "imageAddress": "https://m.media-amazon.com/images/I/61Udr03nGlL._AC_SL1500_.jpg"
     }
 ]
