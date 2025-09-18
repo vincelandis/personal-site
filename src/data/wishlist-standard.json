@@ -8,6 +8,13 @@
         "imageAddress": "https://m.media-amazon.com/images/I/81M1eGDzwDL._SL1500_.jpg"
     },
     {
+        "priority": 100,
+        "id": "starwars-sign",
+        "name": "Star Wars Lineup Black Die-Cut Metal Sign",
+        "link": "https://www.athome.com/star-wars-lineup-black-die-cut-metal-sign/124411144.html?store=188",
+        "imageAddress": "https://static.athome.com/images/w_800,h_800,c_pad,f_auto,fl_lossy,q_auto/v1738070791/p/124411144/star-wars-lineup-black-die-cut-metal-sign.jpg"
+    },
+    {
         "priority": 300,
         "id": "home-depot",
         "name": "Home Depot Gift Card",

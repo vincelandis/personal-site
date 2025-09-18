@@ -49,6 +49,14 @@
         "imageAddress": "https://www.lego.com/cdn/cs/set/assets/bltbd4f1a39f110e3eb/76285.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
+        "id": "75419",
+        "name": "UCS Death Star 2025",
+        "pieceCount": 0,
+        "link": "https://www.lego.com/en-us/product/death-star-75419",
+        "priority": 55,
+        "imageAddress": "https://www.lego.com/cdn/cs/set/assets/blt725a94446f56dbe2/75419_Prod.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
+    },
+    {
         "id": "75380",
         "name": "Mos Espa Podrace Diorama",
         "pieceCount": 718,
