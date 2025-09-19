@@ -15,6 +15,20 @@
         "imageAddress": "https://static.athome.com/images/w_800,h_800,c_pad,f_auto,fl_lossy,q_auto/v1738070791/p/124411144/star-wars-lineup-black-die-cut-metal-sign.jpg"
     },
     {
+        "priority": 200,
+        "id": "starwars-poster",
+        "name": "Star Wars Episode IV: A New Hope 1977 Poster (20 x 16)",
+        "link": "https://www.wayfair.com/decor-pillows/pdp/underground-toys-star-wars-episode-iv-a-new-hope-1977-unframed-poster-16x20-wall-canvas-w010978177.html",
+        "imageAddress": "https://assets.wfcdn.com/im/97170058/resize-h1200-w1200%5Ecompr-r85/2353/235303566/%22+Star+Wars+Episode+IV%3A+A+New+Hope+1977+%22.jpg"
+    },
+    {
+        "priority": 260,
+        "id": "luke-vader-canvas",
+        "name": "Darth Vader vs. Luke Skywalker Canvas Art (1Piece, 24x36inch)",
+        "link": "https://www.etsy.com/listing/1307160641/darth-vader-vs-luke-skywalker-canvas-art?ls=r&external=1&rec_type=cs&ref=landingpage_similar_listing_top-5&pro=1&frs=1&sts=1&content_source=1fd574dcba568d5ff4c8ac9b9d8734f5%253Aa7c6d87e6426897d52e57ad847203f34b43eb830&logging_key=1fd574dcba568d5ff4c8ac9b9d8734f5%3Aa7c6d87e6426897d52e57ad847203f34b43eb830&variation0=2873127924&variation1=2890955045",
+        "imageAddress": "https://i.etsystatic.com/37422040/r/il/2777cf/5572732162/il_1588xN.5572732162_7afe.jpg"
+    },
+    {
         "priority": 150,
         "id": "falcon-sign",
         "name": "Star Wars: May the Force Be With You Sign",
