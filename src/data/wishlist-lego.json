@@ -49,6 +49,14 @@
         "imageAddress": "https://www.lego.com/cdn/cs/set/assets/bltbd4f1a39f110e3eb/76285.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
     },
     {
+        "id": "40591",
+        "name": "Death Star II",
+        "pieceCount": 0,
+        "link": "https://www.bricklink.com/v2/catalog/catalogitem.page?S=40591-1&name=Death%20Star%20II&category=%5BStar%20Wars%5D%5BStar%20Wars%20Episode%204/5/6%5D#T=I",
+        "priority": 54,
+        "imageAddress": "https://img.bricklink.com/ItemImage/SN/0/40591-1.png"
+    },
+    {
         "id": "75419",
         "name": "UCS Death Star 2025",
         "pieceCount": 0,
