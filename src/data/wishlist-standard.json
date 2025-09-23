@@ -1,14 +1,14 @@
 [
     {
         "hidden": true,
-        "priority": 300,
+        "priority": 900,
         "id": "texas-roadhouse",
         "name": "Texas Roadhouse Gift Card",
         "link": "https://www.amazon.com/Texas-Roadhouse-Gift-Card-25/dp/B00CXZPG0O?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=ATVPDKIKX0DER&th=1",
         "imageAddress": "https://m.media-amazon.com/images/I/81M1eGDzwDL._SL1500_.jpg"
     },
     {
-        "priority": 100,
+        "priority": 200,
         "id": "starwars-sign",
         "name": "Star Wars Lineup Black Die-Cut Metal Sign",
         "link": "https://www.athome.com/star-wars-lineup-black-die-cut-metal-sign/124411144.html?store=188",
@@ -22,7 +22,7 @@
         "imageAddress": "https://assets.wfcdn.com/im/97170058/resize-h1200-w1200%5Ecompr-r85/2353/235303566/%22+Star+Wars+Episode+IV%3A+A+New+Hope+1977+%22.jpg"
     },
     {
-        "priority": 260,
+        "priority": 100,
         "id": "luke-vader-canvas",
         "name": "Darth Vader vs. Luke Skywalker Canvas Art (1Piece, 24x36inch)",
         "link": "https://www.etsy.com/listing/1307160641/darth-vader-vs-luke-skywalker-canvas-art?ls=r&external=1&rec_type=cs&ref=landingpage_similar_listing_top-5&pro=1&frs=1&sts=1&content_source=1fd574dcba568d5ff4c8ac9b9d8734f5%253Aa7c6d87e6426897d52e57ad847203f34b43eb830&logging_key=1fd574dcba568d5ff4c8ac9b9d8734f5%3Aa7c6d87e6426897d52e57ad847203f34b43eb830&variation0=2873127924&variation1=2890955045",
@@ -50,7 +50,7 @@
         "imageAddress": "https://m.media-amazon.com/images/I/612Kme7rCpL._AC_SL1500_.jpg"
     },
     {
-        "priority": 100,
+        "priority": 800,
         "id": "wedges",
         "name": "Tree Felling Wedges",
         "link": "https://www.amazon.com/UNCO-Tree-Felling-Wedges/dp/B0B538H3V9/ref=sr_1_3?crid=234GYGIX9WAHL&dib=eyJ2IjoiMSJ9.M4hpPauOefTE8h1aMug6Iad_RtIEWuBmTja8CGiXj3IXtTEve6ZeHPqz16tLbk13ik1ORh5WfcHZwqFIPF-5G6YEo7PYGKHZ0EGgG5Q3wno13cHQvDl_0uMmBn7BZo9mk93Bki63iGkCKaEooO3rJ9oXnvp0JwaCRalyl6mfxz_0bC_yiuim8hAm7cqsGFTpTUSAemQY5LYdEbX3KTtH7MyH6sCMBPJxceYQoNz8QGE.Wa9edVa1eVrFQ5HkFGyx3Ymwm6CBtqVvNhKL_C9_bWA&dib_tag=se&keywords=tree+felling+wedges&qid=1752975344&sprefix=tree+felling+wedges%2Caps%2C102&sr=8-3",
@@ -64,17 +64,24 @@
         "imageAddress": "https://m.media-amazon.com/images/I/61yH4nFv67L._AC_SL1500_.jpg"
     },
     {
-        "priority": 400,
+        "priority": 200,
         "id": "mic-stand",
         "name": "Lemxadd Tripod Microphone Stand",
         "link": "https://www.amazon.com/Lemxadd-Tripod-Microphone-Carrying-Adapter/dp/B0DB5NVC2V",
         "imageAddress": "https://m.media-amazon.com/images/I/61Udr03nGlL._AC_SL1500_.jpg"
     },
     {
-        "priority": 400,
+        "priority": 500,
         "id": "mic-stand",
         "name": "EPAuto Heavy Duty Universal Lug Wrench - 4-Way",
         "link": "https://www.amazon.com/EPAuto-Heavy-Universal-Wrench-4-Way/dp/B0B6GW9R62",
         "imageAddress": "https://m.media-amazon.com/images/I/612jshmBsdL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 400,
+        "id": "car-air-freshener",
+        "name": "Black Ice Car Air Freshener",
+        "link": "https://www.amazon.com/Freshener-Hanging-Provides-Lasting-6-Packs/dp/B00LM54ZD0",
+        "imageAddress": "https://m.media-amazon.com/images/I/81fDGJ4Y99L._AC_SL1500_.jpg"
     }
 ]
