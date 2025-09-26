@@ -8,6 +8,13 @@
         "imageAddress": "https://m.media-amazon.com/images/I/81M1eGDzwDL._SL1500_.jpg"
     },
     {
+        "priority": 250,
+        "id": "starwars-mug",
+        "name": "Star Wars Collage Jaba Boba Ceramic Mug (20oz)",
+        "link": "https://www.athome.com/star-wars-collage-jaba-boba-ceramic-mug-20oz/125002047.html",
+        "imageAddress": "https://static.athome.com/images/w_1200,h_1200,c_pad,f_auto,fl_lossy,q_auto/v1732023972/p/125002047/star-wars-collage-jaba-boba-ceramic-mug-20oz.jpg"
+    },
+    {
         "priority": 200,
         "id": "starwars-sign",
         "name": "Star Wars Lineup Black Die-Cut Metal Sign",
