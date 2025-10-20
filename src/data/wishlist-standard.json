@@ -78,6 +78,13 @@
         "imageAddress": "https://m.media-amazon.com/images/I/61yH4nFv67L._AC_SL1500_.jpg"
     },
     {
+        "priority": 350,
+        "id": "guitar-hanger",
+        "name": "WOGOD Guitar Wall Mount Hangers 3 Pack",
+        "link": "https://www.amazon.com/Hangers-Holders-Acoustic-Electric-Classical/dp/B08C2RN7FL",
+        "imageAddress": "https://m.media-amazon.com/images/I/61hhpciJ-EL._AC_SL1200_.jpg"
+    },
+    {
         "priority": 200,
         "id": "mic-stand",
         "name": "Lemxadd Tripod Microphone Stand",
