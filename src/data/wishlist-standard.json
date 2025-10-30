@@ -14,18 +14,25 @@
         "imageAddress": "https://static.athome.com/images/w_1200,h_1200,c_pad,f_auto,fl_lossy,q_auto/v1738070777/p/124411141/star-wars-may-the-force-be-with-you-sign-with-banded-edge.jpg"
     },
     {
-        "priority": 200,
+        "priority": 180,
         "id": "starwars-sign",
         "name": "Star Wars Lineup Black Die-Cut Metal Sign",
         "link": "https://www.athome.com/star-wars-lineup-black-die-cut-metal-sign/124411144.html?store=188",
         "imageAddress": "https://static.athome.com/images/w_800,h_800,c_pad,f_auto,fl_lossy,q_auto/v1738070791/p/124411144/star-wars-lineup-black-die-cut-metal-sign.jpg"
     },
     {
-        "priority": 200,
+        "priority": 190,
         "id": "starwars-poster",
         "name": "Star Wars Episode IV: A New Hope 1977 Poster (20 x 16)",
         "link": "https://www.wayfair.com/decor-pillows/pdp/underground-toys-star-wars-episode-iv-a-new-hope-1977-unframed-poster-16x20-wall-canvas-w010978177.html",
         "imageAddress": "https://assets.wfcdn.com/im/97170058/resize-h1200-w1200%5Ecompr-r85/2353/235303566/%22+Star+Wars+Episode+IV%3A+A+New+Hope+1977+%22.jpg"
+    },
+    {
+        "priority": 195,
+        "id": "starwars-mug",
+        "name": "Star Wars Collage Ceramic Mug (20oz)",
+        "link": "https://www.athome.com/star-wars-collage-jaba-boba-ceramic-mug-20oz/125002047.html",
+        "imageAddress": "https://static.athome.com/images/w_1200,h_1200,c_pad,f_auto,fl_lossy,q_auto/v1732023972/p/125002047/star-wars-collage-jaba-boba-ceramic-mug-20oz.jpg"
     },
     {
         "priority": 200,
@@ -33,6 +40,34 @@
         "name": "Lemxadd Tripod Microphone Stand",
         "link": "https://www.amazon.com/Lemxadd-Tripod-Microphone-Carrying-Adapter/dp/B0DB5NVC2V",
         "imageAddress": "https://m.media-amazon.com/images/I/61Udr03nGlL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 205,
+        "id": "music-stand",
+        "name": "Manhasset Model 48 Symphony Music Stand",
+        "link": "https://www.amazon.com/Manhasset-Model-Sheet-Music-Stand/dp/B0002FOBJY",
+        "imageAddress": "https://m.media-amazon.com/images/I/61yH4nFv67L._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 207,
+        "id": "guitar-hanger",
+        "name": "WOGOD Guitar Wall Mount Hangers 3 Pack",
+        "link": "https://www.amazon.com/Hangers-Holders-Acoustic-Electric-Classical/dp/B08C2RN7FL",
+        "imageAddress": "https://m.media-amazon.com/images/I/61hhpciJ-EL._AC_SL1200_.jpg"
+    },
+    {
+        "priority": 210,
+        "id": "wedges",
+        "name": "Tree Felling Wedges",
+        "link": "https://www.amazon.com/UNCO-Tree-Felling-Wedges/dp/B0B538H3V9/ref=sr_1_3?crid=234GYGIX9WAHL&dib=eyJ2IjoiMSJ9.M4hpPauOefTE8h1aMug6Iad_RtIEWuBmTja8CGiXj3IXtTEve6ZeHPqz16tLbk13ik1ORh5WfcHZwqFIPF-5G6YEo7PYGKHZ0EGgG5Q3wno13cHQvDl_0uMmBn7BZo9mk93Bki63iGkCKaEooO3rJ9oXnvp0JwaCRalyl6mfxz_0bC_yiuim8hAm7cqsGFTpTUSAemQY5LYdEbX3KTtH7MyH6sCMBPJxceYQoNz8QGE.Wa9edVa1eVrFQ5HkFGyx3Ymwm6CBtqVvNhKL_C9_bWA&dib_tag=se&keywords=tree+felling+wedges&qid=1752975344&sprefix=tree+felling+wedges%2Caps%2C102&sr=8-3",
+        "imageAddress": "https://m.media-amazon.com/images/I/71xm6xpd0XL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 215,
+        "id": "chainsaw-chain",
+        "name": "Chainsaw Chain - 20 inch ECHO CS-590 Timber Wolf: 3/8 Pitch, .050 Gauge, 70 Drive Links",
+        "link": "https://www.amazon.com/20-Chainsaw-Chain-German-Steel/dp/B0CNRNYDG5/",
+        "imageAddress": "https://m.media-amazon.com/images/I/81kjiBOcBLL._AC_SL1500_.jpg"
     },
     {
         "priority": 220,
@@ -57,45 +92,24 @@
     },
     {
         "priority": 250,
-        "id": "starwars-mug",
-        "name": "Star Wars Collage Ceramic Mug (20oz)",
-        "link": "https://www.athome.com/star-wars-collage-jaba-boba-ceramic-mug-20oz/125002047.html",
-        "imageAddress": "https://static.athome.com/images/w_1200,h_1200,c_pad,f_auto,fl_lossy,q_auto/v1732023972/p/125002047/star-wars-collage-jaba-boba-ceramic-mug-20oz.jpg"
-    },
-    {
-        "priority": 250,
         "id": "log-splitter",
         "name": "Champion Power Equipment 27 Ton 224 cc Gas Powered Hydraulic Wood Log Splitter (or similar)",
         "link": "https://www.homedepot.com/p/Champion-Power-Equipment-27-Ton-224-cc-Gas-Powered-Hydraulic-Wood-Log-Splitter-w-Vertical-Horizontal-Operation-and-Auto-Return-with-Hydraulic-Oil-100424/302367049#overlay",
         "imageAddress": "https://images.thdstatic.com/productImages/517967ba-0d99-4d01-b661-3eb1b5e6802f/svn/champion-power-equipment-gas-log-splitters-100424-64_600.jpg"
     },
     {
-        "priority": 300,
-        "id": "home-depot",
-        "name": "Home Depot Gift Card",
-        "link": "https://www.amazon.com/The-Home-Depot-3_The-Depot_Traditional/dp/B0DJQRWRGV?crid=2MIPEBEVOR5A&dib=eyJ2IjoiMSJ9.L_8ml4XERtIgSxUtwwnQFs3fvkYKMnz2P0_fpfHfgR3jEpHRd-IYQlPhpd8TQhCX9EH-Vw6nIQu_EoTiFgL5FV4GRturmUQwfUNQY7C26I0uTKums7LEYfV-IONcSmgXUtYGrNYqpHdlFr1caVZoD534w0AomfMZjLMmGNG7plOzRzWPDvggK25iDvp19lZV6DUFWgjxEuoNbV97O8XDn7326ngx4JkhgD0Y9iCFatVljNGBTCbfUuJnCLcEOkeN4Dqp-ejf1rFqBo-HuL0NVeOFS9O6ZZA8lXNIVQqS8_U.8p96vY8yZikjFP3ga7Z2tsW5HDQy0cCszj3SqRzyq7s&dib_tag=se&keywords=home%2Bdepot%2Bgift%2Bcard&qid=1733975564&sprefix=home%2Bdepot%2Bgift%2Bcard%2Caps%2C89&sr=8-4&th=1",
-        "imageAddress": "https://m.media-amazon.com/images/I/41D679Pu-oL.jpg"
+        "priority": 260,
+        "id": "dewalt-organizer",
+        "name": "DEWALT Plastic Pro Small Parts Organizer (black color, 20 compartments)",
+        "link": "https://www.homedepot.com/p/DEWALT-Plastic-20-Compartment-Pro-Small-Parts-Organizer-DWST14830/301869332#overlay",
+        "imageAddress": "https://images.thdstatic.com/productImages/cac82225-d15a-4bd7-8911-c2083c8e7d07/svn/black-dewalt-small-parts-organizers-dwst14830-64_600.jpg"
     },
     {
-        "priority": 350,
-        "id": "guitar-hanger",
-        "name": "WOGOD Guitar Wall Mount Hangers 3 Pack",
-        "link": "https://www.amazon.com/Hangers-Holders-Acoustic-Electric-Classical/dp/B08C2RN7FL",
-        "imageAddress": "https://m.media-amazon.com/images/I/61hhpciJ-EL._AC_SL1200_.jpg"
-    },
-    {
-        "priority": 350,
-        "id": "chainsaw-chain",
-        "name": "Chainsaw Chain - 20 inch ECHO CS-590 Timber Wolf: 3/8 Pitch, .050 Gauge, 70 Drive Links",
-        "link": "https://www.amazon.com/20-Chainsaw-Chain-German-Steel/dp/B0CNRNYDG5/",
-        "imageAddress": "https://m.media-amazon.com/images/I/81kjiBOcBLL._AC_SL1500_.jpg"
-    },
-    {
-        "priority": 400,
-        "id": "taco-bell",
-        "name": "Taco Bell Gift Card",
-        "link": "https://www.amazon.com/Taco-Bell-Gift-Card-25/dp/B015WZDBPS",
-        "imageAddress": "https://m.media-amazon.com/images/I/616PYd4Ee-L._SL1311_.jpg"
+        "priority": 380,
+        "id": "circular-saw",
+        "name": "BAUER 14 Amp 7-1/4 in. Circular Saw",
+        "link": "https://www.harborfreight.com/14-amp-7-14-in-circular-saw-57672.html",
+        "imageAddress": "https://www.harborfreight.com/media/catalog/product/cache/c7f358f04aec81e7c5e0be4c56edf041/5/7/57672_W3.jpg?auto=webp&width=1200&height=1200&canvas=1200,1200&fit=bounds"
     },
     {
         "priority": 400,
@@ -106,10 +120,10 @@
     },
     {
         "priority": 400,
-        "id": "music-stand",
-        "name": "Manhasset Model 48 Symphony Music Stand",
-        "link": "https://www.amazon.com/Manhasset-Model-Sheet-Music-Stand/dp/B0002FOBJY",
-        "imageAddress": "https://m.media-amazon.com/images/I/61yH4nFv67L._AC_SL1500_.jpg"
+        "id": "mechanics-gloves",
+        "name": "Tillman TrueFit Glove - 1470L (Size Large)",
+        "link": "https://www.amazon.com/Airgas-1470L-Tillman-TrueFit-Mechanics/dp/B07GNXC812",
+        "imageAddress": "https://m.media-amazon.com/images/I/61FlTHoBjeL._SX522_.jpg"
     },
     {
         "priority": 400,
@@ -134,11 +148,18 @@
         "imageAddress": "https://m.media-amazon.com/images/I/612jshmBsdL._AC_SL1500_.jpg"
     },
     {
-        "priority": 800,
-        "id": "wedges",
-        "name": "Tree Felling Wedges",
-        "link": "https://www.amazon.com/UNCO-Tree-Felling-Wedges/dp/B0B538H3V9/ref=sr_1_3?crid=234GYGIX9WAHL&dib=eyJ2IjoiMSJ9.M4hpPauOefTE8h1aMug6Iad_RtIEWuBmTja8CGiXj3IXtTEve6ZeHPqz16tLbk13ik1ORh5WfcHZwqFIPF-5G6YEo7PYGKHZ0EGgG5Q3wno13cHQvDl_0uMmBn7BZo9mk93Bki63iGkCKaEooO3rJ9oXnvp0JwaCRalyl6mfxz_0bC_yiuim8hAm7cqsGFTpTUSAemQY5LYdEbX3KTtH7MyH6sCMBPJxceYQoNz8QGE.Wa9edVa1eVrFQ5HkFGyx3Ymwm6CBtqVvNhKL_C9_bWA&dib_tag=se&keywords=tree+felling+wedges&qid=1752975344&sprefix=tree+felling+wedges%2Caps%2C102&sr=8-3",
-        "imageAddress": "https://m.media-amazon.com/images/I/71xm6xpd0XL._AC_SL1500_.jpg"
+        "priority": 830,
+        "id": "taco-bell",
+        "name": "Taco Bell Gift Card",
+        "link": "https://www.amazon.com/Taco-Bell-Gift-Card-25/dp/B015WZDBPS",
+        "imageAddress": "https://m.media-amazon.com/images/I/616PYd4Ee-L._SL1311_.jpg"
+    },
+    {
+        "priority": 850,
+        "id": "home-depot",
+        "name": "Home Depot Gift Card",
+        "link": "https://www.amazon.com/The-Home-Depot-3_The-Depot_Traditional/dp/B0DJQRWRGV?crid=2MIPEBEVOR5A&dib=eyJ2IjoiMSJ9.L_8ml4XERtIgSxUtwwnQFs3fvkYKMnz2P0_fpfHfgR3jEpHRd-IYQlPhpd8TQhCX9EH-Vw6nIQu_EoTiFgL5FV4GRturmUQwfUNQY7C26I0uTKums7LEYfV-IONcSmgXUtYGrNYqpHdlFr1caVZoD534w0AomfMZjLMmGNG7plOzRzWPDvggK25iDvp19lZV6DUFWgjxEuoNbV97O8XDn7326ngx4JkhgD0Y9iCFatVljNGBTCbfUuJnCLcEOkeN4Dqp-ejf1rFqBo-HuL0NVeOFS9O6ZZA8lXNIVQqS8_U.8p96vY8yZikjFP3ga7Z2tsW5HDQy0cCszj3SqRzyq7s&dib_tag=se&keywords=home%2Bdepot%2Bgift%2Bcard&qid=1733975564&sprefix=home%2Bdepot%2Bgift%2Bcard%2Caps%2C89&sr=8-4&th=1",
+        "imageAddress": "https://m.media-amazon.com/images/I/41D679Pu-oL.jpg"
     },
     {
         "priority": 900,
