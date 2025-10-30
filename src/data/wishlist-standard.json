@@ -1,6 +1,5 @@
 [
     {
-        "hidden": true,
         "priority": 900,
         "id": "texas-roadhouse",
         "name": "Texas Roadhouse Gift Card",
@@ -10,7 +9,7 @@
     {
         "priority": 250,
         "id": "starwars-mug",
-        "name": "Star Wars Collage Jaba Boba Ceramic Mug (20oz)",
+        "name": "Star Wars Collage Ceramic Mug (20oz)",
         "link": "https://www.athome.com/star-wars-collage-jaba-boba-ceramic-mug-20oz/125002047.html",
         "imageAddress": "https://static.athome.com/images/w_1200,h_1200,c_pad,f_auto,fl_lossy,q_auto/v1732023972/p/125002047/star-wars-collage-jaba-boba-ceramic-mug-20oz.jpg"
     },
@@ -85,6 +84,34 @@
         "imageAddress": "https://m.media-amazon.com/images/I/61hhpciJ-EL._AC_SL1200_.jpg"
     },
     {
+        "priority": 350,
+        "id": "chainsaw-chain",
+        "name": "Chainsaw Chain - 20 inch ECHO CS-590 Timber Wolf: 3/8 Pitch, .050 Gauge, 70 Drive Links",
+        "link": "https://www.amazon.com/20-Chainsaw-Chain-German-Steel/dp/B0CNRNYDG5/",
+        "imageAddress": "https://m.media-amazon.com/images/I/81kjiBOcBLL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 240,
+        "id": "husky-hammer",
+        "name": "Husky 4 lb Engineer Hammer with 14 in Fiberglass Handle",
+        "link": "https://www.homedepot.com/p/Husky-4-lb-Engineer-Hammer-with-14-in-Fiberglass-Handle-HD-SF4LB/206768941",
+        "imageAddress": "https://images.thdstatic.com/productImages/4874ce23-581b-4572-b610-9f104f958c54/svn/husky-sledge-hammers-hd-sf4lb-64_600.jpg"
+    },
+    {
+        "priority": 240,
+        "id": "split-wedge",
+        "name": "DEWALT 4 lbs Wood Splitting Wedge",
+        "link": "https://www.homedepot.com/p/DEWALT-4-lbs-Split-Wedge-DWHT55200/332504093#overlay",
+        "imageAddress": "https://images.thdstatic.com/productImages/b3a6dcfa-df65-4cbd-ad12-6ad4a229b160/svn/dewalt-specialty-hand-tools-dwht55200-64_600.jpg"
+    },
+    {
+        "priority": 250,
+        "id": "log-splitter",
+        "name": "Champion Power Equipment 27 Ton 224 cc Gas Powered Hydraulic Wood Log Splitter (or similar)",
+        "link": "https://www.homedepot.com/p/Champion-Power-Equipment-27-Ton-224-cc-Gas-Powered-Hydraulic-Wood-Log-Splitter-w-Vertical-Horizontal-Operation-and-Auto-Return-with-Hydraulic-Oil-100424/302367049#overlay",
+        "imageAddress": "https://images.thdstatic.com/productImages/517967ba-0d99-4d01-b661-3eb1b5e6802f/svn/champion-power-equipment-gas-log-splitters-100424-64_600.jpg"
+    },
+    {
         "priority": 200,
         "id": "mic-stand",
         "name": "Lemxadd Tripod Microphone Stand",
@@ -92,8 +119,9 @@
         "imageAddress": "https://m.media-amazon.com/images/I/61Udr03nGlL._AC_SL1500_.jpg"
     },
     {
+        "hidden": true,
         "priority": 500,
-        "id": "mic-stand",
+        "id": "lug-wrench",
         "name": "EPAuto Heavy Duty Universal Lug Wrench - 4-Way",
         "link": "https://www.amazon.com/EPAuto-Heavy-Universal-Wrench-4-Way/dp/B0B6GW9R62",
         "imageAddress": "https://m.media-amazon.com/images/I/612jshmBsdL._AC_SL1500_.jpg"
