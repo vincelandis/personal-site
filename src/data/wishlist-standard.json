@@ -1,5 +1,12 @@
 [
     {
+        "priority": 50,
+        "id": "baby-gate",
+        "name": "VEVOR Baby Gate - 26-40 Inches Adjustable Width - 36 Inches High - Black",
+        "link": "https://www.lowes.com/pd/VEVOR-Baby-Gate-26-40-Inches-Adjustable-Width-36-Inches-High-Dog-Gate-Easy-Step-Walk-Thru-for-Child-Pet-Security-Pressure-Mount-Kit-Wall-Cups-One-Hand-Open-for-Stairs-and-Doorways-Black/7503366",
+        "imageAddress": "https://mobileimages.lowes.com/productimages/252e1906-6762-4cba-8fd4-e56b0ddf03b6/73442582.jpeg?size=pdhism"
+    },
+    {
         "priority": 100,
         "id": "luke-vader-canvas",
         "name": "Darth Vader vs. Luke Skywalker Canvas Art (1Piece, 24x36inch)",
