@@ -119,6 +119,13 @@
         "imageAddress": "https://www.harborfreight.com/media/catalog/product/cache/c7f358f04aec81e7c5e0be4c56edf041/5/7/57672_W3.jpg?auto=webp&width=1200&height=1200&canvas=1200,1200&fit=bounds"
     },
     {
+        "priority": 390,
+        "id": "compact-tablesaw",
+        "name": "15 Amp Corded 8-1/4 in. Compact Jobsite Tablesaw with Compact Table Saw Stand",
+        "link": "https://www.homedepot.com/p/DEWALT-15-Amp-Corded-8-1-4-in-Compact-Jobsite-Tablesaw-with-Compact-Table-Saw-Stand-DWE7485WS/313820771#overlay",
+        "imageAddress": "https://images.thdstatic.com/productImages/2876dcd6-6cc0-4d88-a1ae-dd147a58d1f9/svn/dewalt-portable-table-saws-dwe7485ws-64_600.jpg"
+    },
+    {
         "priority": 400,
         "id": "guillotine",
         "name": "Guillotine Paper Cutter 15inch with Blade Lock",
