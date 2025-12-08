@@ -147,6 +147,13 @@
         "imageAddress": "https://m.media-amazon.com/images/I/81fDGJ4Y99L._AC_SL1500_.jpg"
     },
     {
+        "priority": 440,
+        "id": "ice-scraper",
+        "name": "Rain-X 50\" Extendable Crossover Snow Broom and Ice Scraper",
+        "link": "https://www.walmart.com/ip/Rain-X-50-Extendable-Crossover-Snow-Broom-and-Ice-Scraper-for-Cars-Trucks-and-RVs-Black-and-Yellow-1-Pack-1220141051X/726316087?wl13=2641&selectedSellerId=0&wmlspartner=wlpa",
+        "imageAddress": "https://i5.walmartimages.com/seo/Rain-X-50-Extendable-Crossover-Snow-Broom-and-Ice-Scraper-for-Cars-Trucks-and-RVs-Black-and-Yellow-1-Pack-1220141051X_46ed8965-3600-494a-a481-2504e8a0e98e.c7a9df57a18aa03cbf553655e5c389be.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+    },
+    {
         "priority": 450,
         "id": "foldable-table",
         "name": "Foldable Portable Table - 6ft white plastic",
