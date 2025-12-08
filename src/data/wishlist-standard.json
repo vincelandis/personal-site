@@ -7,6 +7,13 @@
         "imageAddress": "https://mobileimages.lowes.com/productimages/252e1906-6762-4cba-8fd4-e56b0ddf03b6/73442582.jpeg?size=pdhism"
     },
     {
+        "priority": 80,
+        "id": "bedside-lamp",
+        "name": "16.5 in. Brushed Steel Touch Control 3-Way Table Lamp",
+        "link": "https://www.homedepot.com/p/TRUE-FINE-16-5-in-Brushed-Steel-Touch-Control-3-Way-Table-Lamp-with-2-USB-Ports-6-Watt-LED-Bulb-Included-20080T-BN/316447066?source=shoppingads&locale=en-US&fp=ggl&srsltid=AfmBOopxo1ZRjOoN2yIfAy8kWASjaVgHWJ_C30-wLjSRnLjLnL_AsdgIOc0#overlay",
+        "imageAddress": "https://images.thdstatic.com/productImages/df22a905-b387-47c8-ab6c-97bc397c8ed8/svn/brushed-steel-true-fine-table-lamps-20080t-bn-e1_600.jpg"
+    },
+    {
         "priority": 100,
         "id": "luke-vader-canvas",
         "name": "Darth Vader vs. Luke Skywalker Canvas Art (1Piece, 24x36inch)",
@@ -147,6 +154,13 @@
         "imageAddress": "https://m.media-amazon.com/images/I/81fDGJ4Y99L._AC_SL1500_.jpg"
     },
     {
+        "priority": 430,
+        "id": "opener-remote",
+        "name": "LiftMaster Transmitter 971LM Remote with Security+",
+        "link": "https://www.gatecrafters.com/product_detail_31856.aspx?srsltid=AfmBOopiYsoI0duXSe-9XbNT4fgIEAmkm9K9EKOtY4x50cJ13upMm3ks3dI",
+        "imageAddress": "https://www.webdirectbrands.com/images/D/20134169122136703.jpg"
+    },
+    {
         "priority": 440,
         "id": "ice-scraper",
         "name": "Rain-X 50\" Extendable Crossover Snow Broom and Ice Scraper",
@@ -159,6 +173,13 @@
         "name": "Foldable Portable Table - 6ft white plastic",
         "link": "https://www.amazon.com/Foldable-Portable-Perfect-Wedding-Temporary/dp/B0D8K66FZJ",
         "imageAddress": "https://m.media-amazon.com/images/I/51RLEn8aecL._AC_SL1500_.jpg"
+    },
+    {
+        "priority": 470,
+        "id": "smart-thermostat",
+        "name": "Honeywell Home T9 Smart Thermostat",
+        "link": "https://www.honeywellhome.com/products/t9-smart-thermostat?variant=43065183535206",
+        "imageAddress": "https://www.honeywellhome.com/cdn/shop/files/RCHT9610WFSW2003W-c12-6_05c678a1-84d6-4b5a-936b-3d76ad3ca884.jpg?v=1762502787&width=1214"
     },
     {
         "hidden": true,
