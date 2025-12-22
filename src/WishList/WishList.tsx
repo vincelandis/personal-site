@@ -40,24 +40,24 @@ function WishList({ dataSource }: WishListItemProps) {
   const isMobile = screenSize === 'mobile';
 
   return (
-    <>
+    <div className='wishlist-container'>
       {dataSource
         .filter(d => !d.hidden === true)
-        .sort((a: Wish, b: Wish) => a.priority && b.priority && a.priority > b.priority ? 1 : -1)
+        .sort((a: Wish, b: Wish) => a.priority! - b.priority!)
         .map(o =>
           <div
             className={`wish-container-${isMobile ? 'mobile' : 'desktop'}`}
             onClick={() => window.open(o.link, '_blank')}
           >
+            <div className={`wish-image`}>
+              <img className={`image`} src={o.imageAddress} />
+            </div>
             <div className={`wish-text`}>
               <h2>{o.name}</h2>
             </div>
-            <div className={`wish-image`}>
-              <img className={`image-v`} src={o.imageAddress} />
-            </div>
           </div>
         )}
-    </>
+    </div>
   )
 }
 
