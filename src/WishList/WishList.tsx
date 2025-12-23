@@ -23,6 +23,8 @@ const fulfilled = (wish: Wish) => {
   return wish.purchased && wish.totalWanted && wish.purchased >= wish.totalWanted;
 }
 
+const MAX_REASONABLE_PURCHASES = 100;
+
 function WishList({ dataSource }: WishListItemProps) {
 
   const [modalOpen, setModalOpen] = useState(false);
@@ -71,15 +73,23 @@ function WishList({ dataSource }: WishListItemProps) {
                 : ''}
             </p>
 
-            <input
-              type="number"
-              value={purchaseCount}
-              onChange={(e) => {
-                setPurchaseCount(parseInt(e.target.value, 10));
-              }}
-              min={0}
-              max={selectedWish.totalWanted && selectedWish.totalWanted > 0 ? selectedWish.totalWanted : 999}
-            />
+            <div className='purchase-count-input'>
+              <input
+                value={purchaseCount}
+                onChange={(e) => {
+                  setPurchaseCount(parseInt(e.target.value, 10));
+                }}
+                min={0}
+                max={selectedWish.totalWanted && selectedWish.totalWanted > 0 ? selectedWish.totalWanted : MAX_REASONABLE_PURCHASES}
+              />
+              
+              <div className='purchase-count-button' onClick={() => setPurchaseCount(prev => Math.min(selectedWish.totalWanted ? selectedWish.totalWanted : MAX_REASONABLE_PURCHASES, prev + 1))}>
+                <i className='fa-solid fa-angle-up'></i>
+              </div>
+              <div className='purchase-count-button' onClick={() => setPurchaseCount(prev => Math.max(0, prev - 1))}>
+                <i className='fa-solid fa-angle-down'></i>
+              </div>
+            </div>
             <div>
               <button onClick={() => setModalOpen(false)}>Cancel</button>
               <button onClick={() => {

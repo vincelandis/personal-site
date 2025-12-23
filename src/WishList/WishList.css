@@ -126,20 +126,38 @@
     }
 }
 
+.purchase-count-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-input[type="number"] {
+
+input {
     font-size: 24px;
     padding: 10px;
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
     height: 50px;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    width: 50px;
+.purchase-count-button {
+    font-size: 24px;
+    padding: 10px;
+    width: 25%;
+    margin: 5px;
+    box-sizing: border-box;
     height: 50px;
-    background-size: 30px;
-    background-position: center;
-    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: #646cff;
+    border-radius: 8px;
+    transition: background-color 0.4s ease;
+}
+
+.purchase-count-button:hover {
+    background-color: #acb1ff;
+}
+
+.fa-angle-down, .fa-angle-up {
+    color: white;
 }
