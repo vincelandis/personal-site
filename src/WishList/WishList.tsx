@@ -58,7 +58,7 @@ function WishList({ dataSource }: WishListItemProps) {
               setSelectedWish(o);
               setPurchaseCount(o.purchased || 0);
               setModalOpen(true);
-            }}>Update purchased count</div>
+            }}>Update count</div>
           </div>
         )}
       {modalOpen && selectedWish && (
