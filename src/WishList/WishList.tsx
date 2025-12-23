@@ -106,8 +106,10 @@ function WishList({ dataSource }: WishListItemProps) {
                         console.log('Purchase count updated successfully:', data);
                       }
                     });
+                  setModalOpen(false);
+                } else {
+                  setPurchaseCount(selectedWish ? (selectedWish.purchased || 0) : 0);
                 }
-                setModalOpen(false);
               }}
               >Confirm</button>
             </div>
