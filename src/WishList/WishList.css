@@ -1,16 +1,16 @@
 @media (prefers-color-scheme: dark) {
-    .wish-container-mobile, .wish-container-desktop {
+    .wish-container {
         background-color: #1a1a1a;
     }
 }
 
 @media (prefers-color-scheme: light) {
-    .wish-container-mobile, .wish-container-desktop {
+    .wish-container {
         background-color: #f9f9f9;
     }
 }
 
-.wish-container-mobile {
+.wish-container {
     display: flex;
     flex-direction: column;
     margin: 2px;
@@ -19,20 +19,31 @@
     cursor: pointer;
 }
 
-.wish-container-desktop {
-    display: flex;
-    flex-direction: column;
-    margin: 2px;
-    border-radius: 4px;
-    cursor: pointer;
-    align-items: center;
-}
-
-.wish-container-mobile, .wish-container-desktop {
+.wish-container {
     max-width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
     align-items: center;
+    height: 450px;
+    padding: 10px;
+}
+
+.completed {
+    opacity: .5;
+    position: relative;
+}
+
+.completed::after {
+    content: "COMPLETED";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.5);
+    pointer-events: none;
+    z-index: 1;
 }
 
 .wish-text {
@@ -44,13 +55,11 @@
 
 .wish-text h2 {
     font-size: 1.2rem;
-    padding: 5px;
 }
 
 .wish-image {
     margin: 20px;
-    max-height: 300px;
-    max-width: 300px;
+    height: 60%;
     width: auto;
     overflow-x: hidden;
     display: flex;
@@ -61,7 +70,7 @@
 .wishlist-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 8px;
 }
 
 .image {
@@ -70,4 +79,67 @@
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;
+}
+
+.quantity-fulfilled {
+    color: red;
+    font-weight: bold;
+}
+
+.bought-button {
+    width: 100%;
+    height: 30px;
+    background-color: #646cff;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    .modal-content {
+        background-color: #1a1a1a;
+        color: white;
+    }
+}
+
+
+input[type="number"] {
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    width: 50px;
+    height: 50px;
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -1,43 +1,33 @@
 import './WishList.css'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import supabase from '../utils/supabase';
 
 export interface Wish {
   hidden?: boolean;
-  id?: string;
+  id?: number;
   name?: string;
   pieceCount?: number;
   link?: string;
   priority?: number;
   backupLink?: string;
   imageAddress?: string;
+  totalWanted?: number;
+  purchased?: number;
 }
 
 interface WishListItemProps {
   dataSource: Wish[];
 }
 
-const MOBILE_SCREEN_SIZE_CUTOFF = 950;
+const fulfilled = (wish: Wish) => {
+  return wish.purchased && wish.totalWanted && wish.purchased >= wish.totalWanted;
+}
 
 function WishList({ dataSource }: WishListItemProps) {
 
-  function getScreenSize(width: number) {
-    return width < MOBILE_SCREEN_SIZE_CUTOFF ? 'mobile' : 'desktop';
-  }
-
-  const [screenSize, setScreenSize] = useState(getScreenSize(window.innerWidth));
-
-  // Handle window resize
-  useEffect(() => {
-    const handleResize = () => {
-      const newScreenSize = getScreenSize(window.innerWidth);
-      setScreenSize(newScreenSize);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  const isMobile = screenSize === 'mobile';
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedWish, setSelectedWish] = useState<Wish | null>(null);
+  const [purchaseCount, setPurchaseCount] = useState(0);
 
   return (
     <div className='wishlist-container'>
@@ -46,19 +36,86 @@ function WishList({ dataSource }: WishListItemProps) {
         .sort((a: Wish, b: Wish) => a.priority! - b.priority!)
         .map(o =>
           <div
-            className={`wish-container-${isMobile ? 'mobile' : 'desktop'}`}
-            onClick={() => window.open(o.link, '_blank')}
+            className={`wish-container ${fulfilled(o) ? 'completed' : ''}`}
+            onClick={() =>
+              (!o.link || !o.totalWanted || (o.totalWanted > 0 && o.purchased && o.purchased >= o.totalWanted))
+                ? null
+                : window.open(o.link, '_blank')
+            }
+            key={o.id}
           >
             <div className={`wish-image`}>
-              <img className={`image`} src={o.imageAddress} />
+              <img className='image' src={o.imageAddress} />
             </div>
-            <div className={`wish-text`}>
+            <div className='wish-text'>
               <h2>{o.name}</h2>
             </div>
+            <div className={fulfilled(o) ? 'quantity-fulfilled' : ''}>
+              <span>{o.purchased || 0} of {o.totalWanted && o.totalWanted > 0 ? o.totalWanted : '∞'} purchased</span>
+            </div>
+            <div className='bought-button' onClick={(e) => {
+              e.stopPropagation();
+              setSelectedWish(o);
+              setPurchaseCount(o.purchased || 0);
+              setModalOpen(true);
+            }}>Update purchased count</div>
           </div>
         )}
+      {modalOpen && selectedWish && (
+        <div className="modal">
+          <div className="modal-content">
+            <h3>Are you buying "{selectedWish.name}"?</h3>
+            <p>Update the total purchased count:
+              {(selectedWish && selectedWish.totalWanted && selectedWish.totalWanted > 0)
+                ? ` (Maximum is ${selectedWish.totalWanted})`
+                : ''}
+            </p>
+
+            <input
+              type="number"
+              value={purchaseCount}
+              onChange={(e) => {
+                setPurchaseCount(parseInt(e.target.value, 10));
+              }}
+              min={0}
+              max={selectedWish.totalWanted && selectedWish.totalWanted > 0 ? selectedWish.totalWanted : 999}
+            />
+            <div>
+              <button onClick={() => setModalOpen(false)}>Cancel</button>
+              <button onClick={() => {
+
+                // Validate and update the purchased count.
+                // When total wanted is zero, the quantity can never be exceeded
+                if (
+                  selectedWish &&
+                  selectedWish.totalWanted !== undefined &&
+                  purchaseCount >= 0 &&
+                  (purchaseCount <= selectedWish.totalWanted || selectedWish.totalWanted === 0)
+                ) {
+                  selectedWish.purchased = purchaseCount;
+
+                  supabase.from('wish_purchase')
+                    .upsert({
+                      id: selectedWish.id,
+                      purchased: purchaseCount,
+                    })
+                    .then(({ data, error }) => {
+                      if (error) {
+                        console.error('Error updating purchase count:', error);
+                      } else {
+                        console.log('Purchase count updated successfully:', data);
+                      }
+                    });
+                }
+                setModalOpen(false);
+              }}
+              >Confirm</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
 
-export default WishList
+export default WishList;

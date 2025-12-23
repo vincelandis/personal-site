@@ -1,11 +1,30 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import WishList from './WishList/WishList'
 import legoWishes from './data/wishlist-lego.json'
 import standardWishes from './data/wishlist-standard.json'
+import supabase from './utils/supabase'
+
+interface Purchase {
+  id?: number;
+  purchased?: number;
+}
 
 function App() {
   const [mode, setMode] = useState('standard')
+  const [purchases, setPurchases] = useState<Purchase[]>([])
+
+  useEffect(() => {
+    async function getPurchases() {
+      const { data: purchases } = await supabase.from('wish_purchase').select('*')
+
+      if (purchases && purchases.length > 1) {
+        setPurchases(purchases)
+      }
+    }
+
+    getPurchases()
+  }, [])
 
   return (
     <>
@@ -23,7 +42,15 @@ function App() {
         </button>
       </div>
       <div>
-        <WishList dataSource={mode === 'lego' ? legoWishes : standardWishes}/>
+        <WishList dataSource={mode === 'lego'
+          ? legoWishes.map(w => ({
+            ...w,
+            purchased: purchases.find(p => p.id === w.id)?.purchased,
+          }))
+          : standardWishes.map(w => ({
+            ...w,
+            purchased: purchases.find(p => p.id === w.id)?.purchased,
+          }))} />
       </div>
     </>
   )
