@@ -22,7 +22,7 @@
 .wish-container {
     max-width: 100vw;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow: hidden;
     align-items: center;
     height: 450px;
     padding: 10px;
