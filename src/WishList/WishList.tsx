@@ -6,12 +6,10 @@ export interface Wish {
   hidden?: boolean;
   id?: number;
   name?: string;
-  pieceCount?: number;
   link?: string;
   priority?: number;
-  backupLink?: string;
-  imageAddress?: string;
-  totalWanted?: number;
+  image_address?: string;
+  total_wanted?: number;
   purchased?: number;
 }
 
@@ -20,7 +18,7 @@ interface WishListItemProps {
 }
 
 const fulfilled = (wish: Wish) => {
-  return wish.purchased && wish.totalWanted && wish.purchased >= wish.totalWanted;
+  return wish.purchased && wish.total_wanted && wish.purchased >= wish.total_wanted;
 }
 
 const MAX_REASONABLE_PURCHASES = 100;
@@ -34,26 +32,25 @@ function WishList({ dataSource }: WishListItemProps) {
   return (
     <div className='wishlist-container'>
       {dataSource
-        .filter(d => !d.hidden === true)
         .sort((a: Wish, b: Wish) => a.priority! - b.priority!)
         .map(o =>
           <div
             className={`wish-container ${fulfilled(o) ? 'completed' : ''}`}
             onClick={() =>
-              (!o.link || !o.totalWanted || (o.totalWanted > 0 && o.purchased && o.purchased >= o.totalWanted))
+              (!o.link || !o.total_wanted || (o.total_wanted > 0 && o.purchased && o.purchased >= o.total_wanted))
                 ? null
                 : window.open(o.link, '_blank')
             }
             key={o.id}
           >
             <div className={`wish-image`}>
-              <img className='image' src={o.imageAddress} />
+              <img className='image' src={o.image_address} />
             </div>
             <div className='wish-text'>
               <h2>{o.name}</h2>
             </div>
             <div className={fulfilled(o) ? 'quantity-fulfilled' : ''}>
-              <span>{o.purchased || 0} of {o.totalWanted && o.totalWanted > 0 ? o.totalWanted : '∞'} purchased</span>
+              <span>{o.purchased || 0} of {o.total_wanted && o.total_wanted > 0 ? o.total_wanted : '∞'} purchased</span>
             </div>
             <div className='bought-button' onClick={(e) => {
               e.stopPropagation();
@@ -68,8 +65,8 @@ function WishList({ dataSource }: WishListItemProps) {
           <div className="modal-content">
             <h3>Are you buying "{selectedWish.name}"?</h3>
             <p>Update the total purchased count:
-              {(selectedWish && selectedWish.totalWanted && selectedWish.totalWanted > 0)
-                ? ` (Maximum is ${selectedWish.totalWanted})`
+              {(selectedWish && selectedWish.total_wanted && selectedWish.total_wanted > 0)
+                ? ` (Maximum is ${selectedWish.total_wanted})`
                 : ''}
             </p>
 
@@ -80,10 +77,10 @@ function WishList({ dataSource }: WishListItemProps) {
                   setPurchaseCount(parseInt(e.target.value, 10));
                 }}
                 min={0}
-                max={selectedWish.totalWanted && selectedWish.totalWanted > 0 ? selectedWish.totalWanted : MAX_REASONABLE_PURCHASES}
+                max={selectedWish.total_wanted && selectedWish.total_wanted > 0 ? selectedWish.total_wanted : MAX_REASONABLE_PURCHASES}
               />
-              
-              <div className='purchase-count-button' onClick={() => setPurchaseCount(prev => Math.min(selectedWish.totalWanted ? selectedWish.totalWanted : MAX_REASONABLE_PURCHASES, prev + 1))}>
+
+              <div className='purchase-count-button' onClick={() => setPurchaseCount(prev => Math.min(selectedWish.total_wanted ? selectedWish.total_wanted : MAX_REASONABLE_PURCHASES, prev + 1))}>
                 <i className='fa-solid fa-angle-up'></i>
               </div>
               <div className='purchase-count-button' onClick={() => setPurchaseCount(prev => Math.max(0, prev - 1))}>
@@ -98,9 +95,9 @@ function WishList({ dataSource }: WishListItemProps) {
                 // When total wanted is zero, the quantity can never be exceeded
                 if (
                   selectedWish &&
-                  selectedWish.totalWanted !== undefined &&
+                  selectedWish.total_wanted !== undefined &&
                   purchaseCount >= 0 &&
-                  (purchaseCount <= selectedWish.totalWanted || selectedWish.totalWanted === 0)
+                  (purchaseCount <= selectedWish.total_wanted || selectedWish.total_wanted === 0)
                 ) {
                   selectedWish.purchased = purchaseCount;
 

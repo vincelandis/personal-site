@@ -1,18 +1,35 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import WishList from './WishList/WishList'
-import legoWishes from './data/wishlist-lego.json'
-import standardWishes from './data/wishlist-standard.json'
 import supabase from './utils/supabase'
 
-interface Purchase {
+interface Wish {
+  hidden?: boolean;
+  id?: number;
+  name?: string;
+  link?: string;
+  priority?: number;
+  imageAddress?: string;
+  totalWanted?: number;
+  purchased?: number;
+}
+
+interface WishPurchase {
   id?: number;
   purchased?: number;
 }
 
 function App() {
-  const [mode, setMode] = useState('standard')
-  const [purchases, setPurchases] = useState<Purchase[]>([])
+  const [mode, setMode] = useState('lego')
+  const [wishes, setWishes] = useState<Wish[]>([])
+  const [purchases, setPurchases] = useState<WishPurchase[]>([])
+
+  const warnOrphanedPurchases = () => {
+    const orphaned = purchases.filter(p => !wishes.find(w => w.id === p.id))
+    if (orphaned.length > 0) {
+      console.warn('Orphaned purchases found:', orphaned)
+    }
+  }
 
   useEffect(() => {
     async function getPurchases() {
@@ -24,30 +41,42 @@ function App() {
     }
 
     getPurchases()
+    warnOrphanedPurchases();
+  }, [])
+
+  useEffect(() => {
+    async function getWishes() {
+      const { data: wishes } = await supabase.from('wish').select('*')
+
+      if (wishes && wishes.length > 1) {
+        setWishes(wishes)
+      }
+    }
+
+    getWishes()
+    warnOrphanedPurchases();
   }, [])
 
   return (
     <>
       <h1>Vince Wishlist</h1>
       <div className='card'>
-        <button className={`button-left ${mode === 'standard' ? 'selected' : ''}`}
-          onClick={() => setMode('standard')}
-        >
-          STANDARD
-        </button>
-        <button className={`button-right ${mode === 'lego' ? 'selected' : ''}`}
+        <button className={`button-left ${mode === 'lego' ? 'selected' : ''}`}
           onClick={() => setMode('lego')}
         >
           LEGO
         </button>
+        <button className={`button-right ${mode === 'standard' ? 'selected' : ''}`}
+          onClick={() => setMode('standard')}
+        >
+          STANDARD
+        </button>
       </div>
       <div>
-        <WishList dataSource={mode === 'lego'
-          ? legoWishes.map(w => ({
-            ...w,
-            purchased: purchases.find(p => p.id === w.id)?.purchased,
-          }))
-          : standardWishes.map(w => ({
+        <WishList dataSource={wishes
+          .filter(w => w.hidden !== true)
+          .filter(w => mode === 'lego' ? w.id! > 1000 : w.id! <= 1000)
+          .map(w => ({
             ...w,
             purchased: purchases.find(p => p.id === w.id)?.purchased,
           }))} />
