@@ -2,6 +2,15 @@ import './WishList.css'
 import { useState } from 'react';
 import supabase from '../utils/supabase';
 
+const DummyWishes: [Wish] = [{
+  id: 0,
+  name: 'Loading wishes...',
+  image_address: 'https://media.tenor.com/tg1lqA4RwC4AAAAM/carrera.gif',
+  priority: 0,
+  total_wanted: 0,
+  purchased: 0,
+}];
+
 export interface Wish {
   hidden?: boolean;
   id?: number;
@@ -13,7 +22,7 @@ export interface Wish {
   purchased?: number;
 }
 
-interface WishListItemProps {
+interface WishListProps {
   dataSource: Wish[];
 }
 
@@ -23,7 +32,7 @@ const fulfilled = (wish: Wish) => {
 
 const MAX_REASONABLE_PURCHASES = 100;
 
-function WishList({ dataSource }: WishListItemProps) {
+function WishList({ dataSource }: WishListProps) {
 
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedWish, setSelectedWish] = useState<Wish | null>(null);
@@ -31,7 +40,7 @@ function WishList({ dataSource }: WishListItemProps) {
 
   return (
     <div className='wishlist-container'>
-      {dataSource
+      {(dataSource?.length > 0 ? dataSource : DummyWishes)
         .sort((a: Wish, b: Wish) => a.priority! - b.priority!)
         .map(o =>
           <div
