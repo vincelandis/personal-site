@@ -24,37 +24,26 @@ function App() {
   const [wishes, setWishes] = useState<Wish[]>([])
   const [purchases, setPurchases] = useState<WishPurchase[]>([])
 
-  const warnOrphanedPurchases = () => {
-    const orphaned = purchases.filter(p => !wishes.find(w => w.id === p.id))
-    if (orphaned.length > 0) {
-      console.warn('Orphaned purchases found:', orphaned)
-    }
-  }
-
   useEffect(() => {
     async function getPurchases() {
       const { data: purchases } = await supabase.from('wish_purchase').select('*')
+      const { data: wishes } = await supabase.from('wish').select('*')
 
       if (purchases && purchases.length > 1) {
         setPurchases(purchases)
       }
-    }
-
-    getPurchases()
-    warnOrphanedPurchases();
-  }, [])
-
-  useEffect(() => {
-    async function getWishes() {
-      const { data: wishes } = await supabase.from('wish').select('*')
 
       if (wishes && wishes.length > 1) {
         setWishes(wishes)
       }
+
+      const orphaned = purchases?.filter(p => !wishes?.find(w => w.id === p.id))
+      if (orphaned && orphaned.length > 0) {
+        console.warn('Orphaned purchases found:', orphaned.map(o => o.id).join(', '))
+      }
     }
 
-    getWishes()
-    warnOrphanedPurchases();
+    getPurchases()
   }, [])
 
   return (
