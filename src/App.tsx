@@ -20,7 +20,7 @@ interface WishPurchase {
 }
 
 function App() {
-  const [mode, setMode] = useState('lego')
+  const [mode, setMode] = useState('standard')
   const [wishes, setWishes] = useState<Wish[]>([])
   const [purchases, setPurchases] = useState<WishPurchase[]>([])
 
@@ -50,15 +50,15 @@ function App() {
     <>
       <h1>Vince Wishlist</h1>
       <div className='card'>
-        <button className={`button-left ${mode === 'lego' ? 'selected' : ''}`}
-          onClick={() => setMode('lego')}
-        >
-          LEGO
-        </button>
-        <button className={`button-right ${mode === 'standard' ? 'selected' : ''}`}
+        <button className={`button-left ${mode === 'standard' ? 'selected' : ''}`}
           onClick={() => setMode('standard')}
         >
           STANDARD
+        </button>
+        <button className={`button-right ${mode === 'lego' ? 'selected' : ''}`}
+          onClick={() => setMode('lego')}
+        >
+          LEGO
         </button>
       </div>
       <div>
