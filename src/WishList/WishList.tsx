@@ -45,11 +45,11 @@ function WishList({ dataSource }: WishListProps) {
         .map(o =>
           <div
             className={`wish-container ${fulfilled(o) ? 'completed' : ''}`}
-            onClick={() =>
-              (!o.link || !o.total_wanted || (o.total_wanted > 0 && o.purchased && o.purchased >= o.total_wanted))
-                ? null
-                : window.open(o.link, '_blank')
-            }
+            onClick={() => {
+              if (!o.link) return;
+              if (o.total_wanted && o.total_wanted > 0 && o.purchased && o.purchased >= o.total_wanted) return;
+              window.open(o.link, '_blank');
+            }}
             key={o.id}
           >
             <div className={`wish-image`}>
