@@ -32,6 +32,8 @@ const fulfilled = (wish: Wish) => {
 
 const MAX_REASONABLE_PURCHASES = 100;
 
+const isInfiniteWish = (wish: Wish) => !wish.total_wanted || wish.total_wanted <= 0;
+
 function WishList({ dataSource }: WishListProps) {
 
   const [modalOpen, setModalOpen] = useState(false);
@@ -41,7 +43,14 @@ function WishList({ dataSource }: WishListProps) {
   return (
     <div className='wishlist-container'>
       {(dataSource?.length > 0 ? dataSource : DummyWishes)
-        .sort((a: Wish, b: Wish) => a.priority! - b.priority!)
+        .slice()
+        .sort((a: Wish, b: Wish) => {
+          const aInfinite = isInfiniteWish(a);
+          const bInfinite = isInfiniteWish(b);
+          if (aInfinite && !bInfinite) return 1;
+          if (!aInfinite && bInfinite) return -1;
+          return (a.priority || 0) - (b.priority || 0);
+        })
         .map(o =>
           <div
             className={`wish-container ${fulfilled(o) ? 'completed' : ''}`}
